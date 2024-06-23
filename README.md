@@ -22,7 +22,7 @@ More information about the Flipper Zero is available at https://flipperzero.one/
 
 Unfortunately, there are currently numerous videos on the internet of people using it maliciously by modifying the public signs of gas prices at various petrol stations (https://www.youtube.com/watch?v=wtHr7x_wT40), using it as a universal remote control to turn off television/screens in public places like restaurants and shopping centers (https://youtube.com/shorts/aRjd-eK2Tqc?si=5WpuzgaUUG2dHQ6v) and even opening up random Tesla car ports (https://youtube.com/shorts/ibe9fjxs2ik?si=hXILEVGkfbND3FE1). 
 
-**Please do not do this sort of suff** This is highly illegal. As Uncle Ben (and recently, Aunt May) said in Spiderman, **with great power comes great responsibility**. This leads me to my next point:
+**Please do not do this sort of stuff.** This is *highly* illegal. As Uncle Ben (and recently, Aunt May) said in Spiderman, **with great power comes great responsibility**. This leads me to my next point:
 
 # Important Note:
 *Legal Consequences:*
@@ -44,7 +44,9 @@ Unfortunately, there are currently numerous videos on the internet of people usi
 
 ![RFID_Blocking_With_Sleeve](https://github.com/nivvoudit/RFID-Blocking/assets/25519970/f3d518da-0eec-43c3-aeb8-e926adb995d2)
 
-I have waited for over 10 minutes and still...the Flipper is unable to read the card in this protective sleeve. Can we conclude that this is a veritable solution? Not yet - more testing is required.
+I have waited for over 10 minutes and still...the Flipper is unable to read the card in this protective sleeve. 
+
+Can we conclude that this is a veritable solution? Not yet - more testing is required. The rabbit hole grows deeper...
 
 Stay tuned as I explore additional options!
 
