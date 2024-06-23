@@ -8,9 +8,9 @@ An **Anti-wireless-communication sleeve** that is usually included with Green Ca
 
 ![Card_Blocker_Sleeve](https://github.com/nivvoudit/RFID-Blocking/assets/25519970/88f08fd3-4ecc-4968-811b-74215e9a22c8)
 
-I know, right? At face value, one might say: *"This is literally just a small paper envelope. I can just take a long CVS receipt, cut it up, draw doodles with a sharpie and make a fun side hustle selling identity theft "protection envelopes" on Etsy."*
-While doing some research, I learned that in 2010, the USCIS began issuing "RFID enhanced" Green Cards. As a former greencard holder turned naturalized American citizen, I am aware of the importance of safeguarding such information as it is highly sensitive. 
-This little card holder is a sort of electromagnetically opaque sleeve that shields one's green card from external readers. At a minimum, it will make contactless access to one's RFID more difficult. One user claimed that *"the card holder definitely looks like a standard paper, but it is embedded with a very thin metal foil inside the 2 outside paper layers. I was able to scratch the corners of the paper and was able to see aluminum like thin foil."* 
+I know, right? At face value, one might say: *"This is literally just a small paper envelope. I can just take a long CVS receipt, cut it up, draw doodles with a sharpie and make a fun side hustle selling identity theft "protection envelopes" on Etsy. Gary Vaynerchuk is going to be so proud of me!"*
+
+Well...in doing some research, I learned that in 2010, the USCIS began issuing "RFID enhanced" Green Cards. As a former greencard holder turned naturalized American citizen, I am aware of the importance of safeguarding such information as that data is *highly* sensitive. This little card holder is a sort of electromagnetically opaque sleeve that shields one's green card from external readers. At a minimum, it will make contactless access to one's RFID more difficult. One user claimed that *"the card holder definitely looks like a standard paper, but it is embedded with a very thin metal foil inside the 2 outside paper layers. I was able to scratch the corners of the paper and was able to see aluminum like thin foil."* 
 
 **Interesting.** Let's test it out!
 
@@ -30,55 +30,25 @@ Unfortunately, there are currently numerous videos on the internet of people usi
 **Understanding the legal ramifications and implementing strong security measures are essential to safeguarding RFID technology from malicious exploitation.**
 
 
-
 # My Process
 1. I will attempt to read an RFID card using the Flipper Zero using direct physical contact.
 2. I will attempt to read the RFID card again using the Anti-wireless-communication sleeve (Greencard sleeve).
 
-# **Reading the Source Card with Flipper Zero**......**SUCCESS!**
+# **1. Reading the Source Card with Flipper Zero - direct contact with no protective layer**
+
+![RFID_Blocking_Flipper_Process](https://github.com/nivvoudit/RFID-Blocking/assets/25519970/f3bdf462-687e-47a6-a156-2c44795ba917)
 
 
-Now that we have captured the data from the source card, let's see if we can write it to a card of a similar type. 
+
+# **2. Attempting to read the Source Card with Flipper Zero - but the source card is now in a protective layer (Anti-wireless communication sleeve aka Greencard sleeve)
+
+![RFID_Blocking_With_Sleeve](https://github.com/nivvoudit/RFID-Blocking/assets/25519970/f3d518da-0eec-43c3-aeb8-e926adb995d2)
+
+I have waited for over 10 minutes and still...the Flipper is unable to read the card in this protective sleeve. Can we conclude that this is a veritable solution? Not yet - more testing is required.
+
+Stay tuned as I explore additional options!
 
 
-# **Writing data from the source card to a CLONE card**.....**SUCCESS!**
-![RFID_Write](https://github.com/nivvoudit/RFID_Testing/assets/25519970/18befdff-4106-412e-90d9-58907807e029)
-
-
-For the purposes of this demonstration, I used a blank, similar RFID card. 
-
-# However...
-
-**There are also many different types of writeable media available e.g. key fobs, tags, wristbands and so forth - from travel cards, concert/event tags, to even medical patient wristbands.**
-
-![OtherTypes](https://github.com/nivvoudit/RFID_Testing/assets/25519970/bcab6dd7-1418-40e7-9a69-964bd7b92e1e)
-
-
-There was even a case where someone creatively turned his RFID chip into a wand (while dressed as Gandalf from Lord of the Rings), tapping his wand on the card readers to access travel:
-
-![Wand_Clone_RFID](https://github.com/nivvoudit/RFID_Testing/assets/25519970/e6ef4f45-ad6a-42ae-a24e-f4cf1038530b)
-
-
-# The Risks of RFID Cloning:
-Radio Frequency Identification (RFID) technology is widely used in various sectors due to its convenience and efficiency in tracking and authenticating items and individuals. However, the ability to easily read and clone RFID devices poses significant cybersecurity risks, potentially causing severe disruptions in critical areas such as travel, banking, and healthcare.
-
-**Travel**: RFID technology is commonly used in passports and boarding passes. Cloning these RFID tags can allow malicious actors to bypass security checks, leading to unauthorized access to secure areas, identity theft, and even the trafficking of illicit goods. Such breaches can compromise the safety of travelers and the integrity of border control systems.
-
-**Banking**: Contactless payment cards and keycards utilize RFID technology for quick and secure transactions. Cloning these cards can lead to unauthorized access to financial accounts, resulting in significant financial losses for individuals and institutions. Furthermore, it undermines the trust in contactless payment systems, impacting the overall security of financial transactions.
-
-**Medical**: RFID tags are used in patient identification, medical equipment tracking, and pharmaceutical management. Cloning these tags can result in severe consequences, including incorrect patient treatment, unauthorized access to medical facilities, and the distribution of counterfeit medications. This not only jeopardizes patient safety but also disrupts the integrity of healthcare services.
-
-As RFID technology continues to integrate into our daily lives, it is crucial to address its vulnerabilities and implement robust security measures to prevent cloning and unauthorized access. Ensuring the integrity and security of RFID systems is essential to protect sensitive information and maintain trust in these critical sectors.
-
-# Available Solutions
-
-There are currently available solutions to protect malicious actors from cloning RFID devices. Most of these solutions involve a physical, protective layer surrounding the RFID source:
-
-![Solutions](https://github.com/nivvoudit/RFID_Testing/assets/25519970/565ee377-3aeb-4b00-990d-40b452b31ae6)
-
-# More secure alternatives
-
-I will explore more secure, alternative solutions in upcoming projects including cards using different technologies (e.g. MiFare EV2). Stay tuned and thanks for reading!
 
 
 
