@@ -1,6 +1,6 @@
 # RFID Signal Blocking
 
-In my previous project **RFID-Testing-and-Cloning**, I showed how to read data from a basic RFID card (e.g. your standard badge that you might use to clock in and out at work etc) and then clone it to another card using a simple $7 RFID tool available at Walmart. To a malicious actor, this would seem to be a fairly easy method to steal personal data by simply tapping the tool on the physical data source, accessing the information and potentially exploiting it for personal gain. While researching more secure alternatives, I suggested some simple options on a surface level to block the RFID signal from malicious actors - for example, the use of protective sleeves.
+In my previous project [RFID-Testing-and-Cloning](https://github.com/nivvoudit/RFID-Testing-and-Cloning), I showed how to read data from a basic RFID card (e.g. your standard badge that you might use to clock in and out at work etc) and then clone it to another card using a simple $7 RFID tool available at Walmart. To a malicious actor, this would seem to be a fairly easy method to steal personal data by simply tapping the tool on the physical data source, accessing the information and potentially exploiting it for personal gain. While researching more secure alternatives, I suggested some simple options on a surface level to block the RFID signal from malicious actors - for example, the use of protective sleeves.
 
 Coincindentally while doing some house cleaning, I discovered a wonderful piece of memorabilia during my journey in becoming a US Citizen: 
 
